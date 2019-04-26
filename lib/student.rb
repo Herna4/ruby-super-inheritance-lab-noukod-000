@@ -1,7 +1,7 @@
 class Student
 
   def hello
-    @student.hello
+    "Hey there! I'm so excited to learn stuff."
   end
 
 
