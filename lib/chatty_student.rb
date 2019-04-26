@@ -1,13 +1,16 @@
-class ChattyStudent < Student
+require_relative "./student"
 
-  def hello
+ class ChattyStudent < Student
+
+   def hello
     super
-    puts puts "How are you doing today? I'm okay, but I'm kind of tired. Did you watch The Walking Dead last night? You didn't?! Oh man, it was so crazy! What, you don't want any spoilers? Okay well let me just tell you who died...\n"
+    puts "How are you doing today? I'm okay, but I'm kind of tired. Did you watch The Walking Dead last night? You didn't?! Oh man, it was so crazy! What, you don't want any spoilers? Okay well let me just tell you who died...\n"
   end
 
-  def raise_hand
+   def raise_hand
     10.times do super
-   end
+    end
   end
 
-end
+
+ end
